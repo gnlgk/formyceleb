@@ -1,0 +1,169 @@
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: table
+}
+
+.clearfix:after {
+    clear: both;
+    display: block
+}
+
+.button__menu {
+    grid-area: menu;
+    position: relative;
+    width: 30px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.button__menu span {
+    display: block;
+    position: relative;
+    color: var(--white);
+}
+
+.button__menu span a:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.reset-wrap {
+    width: 100%;
+    margin: auto;
+    max-width: 525px;
+    min-height: 670px;
+    position: relative;
+    color: #666;
+    background: #fff;
+    font: 600 14px/20px 'Open Sans', sans-serif;
+    font-family: 'SUITE-Regular';
+}
+
+.reset-html {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 100px 70px 50px 70px;
+    background: #fff;
+    top: -5px;
+}
+
+.reset-html .reset-up__htm {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    transition: all .4s linear;
+    margin-top: 20px;
+}
+
+.reset-form {
+    min-height: 345px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.reset-form .group {
+    margin-bottom: 15px;
+}
+
+.reset-form .group .label,
+.reset-form .group .input,
+.reset-form .group .button {
+    width: 100%;
+    color: #111;
+    display: block;
+}
+
+.reset-form .group .input,
+.reset-form .group .button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid #ddd;
+    font-size: 12px;
+}
+
+.reset-form .group input[data-type="password"] {
+    -webkit-text-security: circle;
+}
+
+.reset-form .label,
+.reset-form .group .label {
+    color: #111;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.reset-form .group .button {
+    background: #111;
+    color: #fff;
+    font-weight: 1000;
+    font-family: 'SUITE-Regular';
+    font-size: 14px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    transition: all 0.5s;
+}
+
+.reset-form .group .button:hover {
+    background: #666;
+}
+
+.foot__lnk {
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot__lnk a {
+    color: #666 !important;
+    font-family: 'SUITE-Regular';
+    transition: all 0.3s;
+}
+
+.foot__lnk a:hover {
+    color: #111 !important;
+}
+
+.logo {
+    font-family: meno-banner, serif;
+    font-size: 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #111;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    font-weight: 1000;
+}
+
+.close {
+    color: #111;
+    background-color: #fff;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 3px 8px;
+    position: absolute;
+    top: 18px;
+    right: 12px;
+    border: none;
+}
+
+.close:hover,
+.close:focus {
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+}

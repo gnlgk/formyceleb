@@ -1,0 +1,49 @@
+:root {
+    --fontN: "nimbus-sans", sans-serif;
+    --fontG: "SUITE-Regular";
+    --fontM: "meno-banner", serif;
+
+    --mainColor: #111111;
+    --pointColor: #FC4F4F;
+
+    --white: #fff;
+    --white100: #fff;
+    --white200: #e1e1e1;
+    --white300: #ddd;
+    --white400: #ccc;
+    --white500: #bbb;
+    --white600: #aaa;
+
+    --black: #000;
+    --black100: #111;
+    --black200: #222;
+    --black300: #333;
+    --black400: #444;
+    --black500: #555;
+    --black600: #666;
+    --black700: #777;
+
+    /* 기본 폰트 설정 */
+    font-family: var(--fontG);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    /* 아이폰 가로 모드에서 글씨 확대 금지 */
+    -webkit-text-size-adjust: 100%;
+
+    /* 모든 이미지 */
+    --snsInsta: url(../img/sns-insta.svg);
+    --snsGit: url(../img/sns-git.svg);
+    --snsYoutube: url(../img/sns-youtube.svg);
+    --snsFigma: url(../img/sns-figma.svg);
+    --arrow: url(../svg/arrow.svg);
+}
+
+
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 14px;
+    }
+}

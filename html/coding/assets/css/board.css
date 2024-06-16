@@ -1,0 +1,199 @@
+/* 
+    board__inner 
+    |-- board__search : 검색
+    |-- board__table : 글목록
+    |-- board__pages : 페이지
+    |-- board__view : 글보기
+    |-- board__modify
+    |-- board__write : 글쓰기
+*/
+
+.board__inner {
+    padding: 80px 0 0;
+}
+
+/* board__search */
+.board__search {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 4px;
+}
+
+.board__search .left {
+    color: var(--white);
+}
+
+.board__search .left em {
+    font-family: 'SUITE-Regular';
+    color: var(--pointColor);
+}
+
+.board__search .right select {
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    color: var(--black700);
+}
+
+.board__search .right input {
+    padding: 0.74rem 1rem;
+    border-radius: 5px;
+}
+
+.board__search .right button {
+    padding: 0.765rem 2rem;
+    border-radius: 5px;
+    background-color: var(--black300);
+    color: var(--white);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.board__search .right button:hover {
+    background-color: var(--black500);
+}
+
+/* board-table */
+.board__table {
+    border-top: 3px solid var(--white);
+}
+
+.board__table th {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.board__table td,
+.board__table td a {
+    color: var(--white);
+}
+
+.board__table th,
+.board__table td {
+    border-bottom: 1px solid var(--white);
+    padding: 15px 5px;
+    text-align: center;
+}
+
+/* board-pages */
+.board__pages {
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.board__pages ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board__pages ul li a {
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 4px;
+    background-color: #222;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.board__pages ul li a.active,
+.board__pages ul li a:hover {
+    background-color: var(--black300);
+    color: var(--white);
+}
+
+.board__pages .prev {
+    padding-left: 46px;
+    background-image: var(--arrow);
+    background-position: 10px center;
+}
+
+
+/* board write */
+.board__write {
+    color: var(--white);
+}
+
+.board__write label {
+    width: 100%;
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.board__write input {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.board__write textarea {
+    width: 100%;
+    resize: none;
+    line-height: 1.7;
+}
+
+.board__write textarea.input-style {
+    height: 500px;
+    resize: none;
+}
+
+.board__write .btn {
+    text-align: right;
+    padding: 1rem 0;
+}
+
+.board__write .btn button {
+    padding: 12px 18px;
+    width: 10%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* board-view */
+.board__view {}
+
+.board__view table {}
+
+.board__view table th {
+    background-color: var(--black300);
+    color: var(--white);
+}
+
+.board__view table td {
+    background-color: var(--white);
+    color: var(--blakc100);
+}
+
+.board__view table th,
+.board__view table td {
+    padding: 15px 40px;
+    border-block-start: 1px solid var(--black);
+}
+
+.board__view table tr:last-child td {
+    height: 500px;
+    white-space: pre-line;
+}
+
+.board__view .btn {
+    text-align: right;
+    padding: 1rem 0;
+}
+
+.board__view .btn a {
+    padding: 12px 20px;
+    width: 10%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+@media (max-width: 600px) {
+    .board__search {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

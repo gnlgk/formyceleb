@@ -1,0 +1,135 @@
+footer {
+    background-color: #222222;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem 0;
+    position: relative;
+    bottom: 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer__content .left{
+    text-align-last: left;
+}
+
+.footer__content .right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__content p {
+    margin: 0;
+    line-height: 1.5;
+    color: #b4b4b4;
+    text-align: left;
+    font-family: "SUITE-Regular";
+}
+
+
+.footer__inner .left h4 {
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: var(--fontG);
+
+}
+
+
+.sns ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sns ul li {
+    margin-right: 10px;
+}
+
+.sns ul li a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* 푸터 반응형 스타일 */
+@media (max-width: 1024px) {
+    .footer__inner {
+        padding: 2rem;
+        /* 패딩 값을 줄여서 공간 확보 */
+    }
+
+    .footer__content .left,
+    .footer__content .right {
+        padding: 0 10px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 1rem;
+        /* 패딩 값을 줄여서 공간 확보 */
+    }
+
+    .footer__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__content .left,
+    .footer__content .right {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .footer__content .right {
+        margin-top: 1rem;
+    }
+
+    .footer__content h4,
+    .footer__content p {
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__inner {
+        padding: 1rem;
+        /* 패딩 값을 줄여서 공간 확보 */
+    }
+
+    .footer__content .left,
+    .footer__content .right {
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer__content h4,
+    .footer__content p {
+        margin: 0.5rem 0;
+    }
+}

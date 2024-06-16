@@ -1,0 +1,112 @@
+.intro__inner {
+    padding: 5rem 0;
+    position: relative;
+}
+
+.intro__inner .write {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    font-size: 14px;
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    color: var(--black300);
+    padding: 2px 14px;
+    border-radius: 50px;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+.intro__inner .write:hover {
+    background-color: var(--black100);
+    color: var(--white);
+}
+
+.intro__title {
+    font-size: 2.5rem;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: meno-banner, serif;
+    color: var(--white);
+}
+
+@media (max-width:1200px) {
+    .intro__title {
+        font-size: 2.5rem;
+        letter-spacing: 7px;
+    }
+
+
+    /* 반응형 디자인 */
+    @media (max-width: 1024px) {
+        .intro__title {
+            font-size: 2rem;
+            /* 폰트 크기를 줄여 작은 화면에 맞춤 */
+            letter-spacing: 6px;
+            /* 자간을 줄임 */
+        }
+
+        .intro__inner .write {
+            font-size: 12px;
+            /* 버튼의 폰트 크기를 줄임 */
+            padding: 2px 10px;
+            /* 버튼의 패딩을 줄임 */
+        }
+    }
+
+    @media (max-width: 806px) {
+        .intro__title {
+            font-size: 1.6rem;
+            /* 폰트 크기를 더 줄임 */
+            letter-spacing: 4px;
+            /* 자간을 더 줄임 */
+        }
+
+        .intro__inner .write {
+            font-size: 10px;
+            /* 버튼의 폰트 크기를 더 줄임 */
+            padding: 2px 8px;
+            /* 버튼의 패딩을 더 줄임 */
+        }
+    }
+
+    @media (max-width: 480px) {
+        .intro__title {
+            font-size: 1.3rem;
+            /* 폰트 크기를 더 줄임 */
+            letter-spacing: 2px;
+            /* 자간을 더 줄임 */
+        }
+
+        .intro__inner .write {
+            font-size: 8px;
+            /* 버튼의 폰트 크기를 더 줄임 */
+            padding: 2px 6px;
+            /* 버튼의 패딩을 더 줄임 */
+            bottom: 10px;
+            /* 작은 화면에서 버튼 위치를 조정 */
+        }
+    }
+
+    @media (max-width: 370px) {
+        .intro__title {
+            font-size: 1.2rem;
+            /* 폰트 크기를 더 줄임 */
+            letter-spacing: 1px;
+            /* 자간을 더 줄임 */
+        }
+
+        .intro__inner .write {
+            font-size: 6px;
+            /* 버튼의 폰트 크기를 더 줄임 */
+            padding: 2px 4px;
+            /* 버튼의 패딩을 더 줄임 */
+            bottom: 5px;
+            /* 아주 작은 화면에서 버튼 위치를 조정 */
+        }
+    }
+}
