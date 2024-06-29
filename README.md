@@ -1,6 +1,6 @@
 # formyceleb
 
-![image](https://github.com/gnlgk/formyceleb/assets/161431748/fa5fafaa-f364-42ae-a74f-b89c9b9d0dcc)
+![image](https://github.com/gnlgk/formyceleb/assets/161431748/5315f8b6-9554-47f1-ae2a-aeda5f43f573)
 
 _아이돌 사진을 한눈에! 편리한 아이돌 사진 감상 사이트 "formyceleb"_
 
@@ -48,19 +48,9 @@ _아이돌 사진을 한눈에! 편리한 아이돌 사진 감상 사이트 "for
 
 ## design
 
-![image](https://github.com/gnlgk/formyceleb/assets/161431748/f9329b0d-09e2-45d2-89d9-2e9796975156)
+![image](https://github.com/gnlgk/formyceleb/assets/161431748/5d594020-272c-4178-825a-2ee2256b59b3)
 
-![image](https://github.com/gnlgk/formyceleb/assets/161431748/a5f36079-d370-4e2b-a753-ccc2a7d3113d)
-
-![image](https://github.com/gnlgk/formyceleb/assets/161431748/190ade7e-e8b6-49fd-b4f3-7896cd664c02)
-
-![image](https://github.com/gnlgk/formyceleb/assets/161431748/a6a96a02-ae9f-4ede-b3c1-64ddcac91ad1)
-
-## Process
-
-![image](https://github.com/gnlgk/formyceleb/assets/161431748/1b43522f-2415-4c5f-b6a4-cc1cb46be14e)
-
-![IMG_1194](https://github.com/gnlgk/formyceleb/assets/161431748/1e5d4283-b8a6-4627-96f0-91f6c3866e83)
+![image](https://github.com/gnlgk/formyceleb/assets/161431748/123cc009-897d-45eb-ad51-238d6e097287)
 
 ## Who we are?
 
